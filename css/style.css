@@ -1,0 +1,61 @@
+/* GENERAL */
+*{
+  margin: 0;
+}
+
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* separando i selettori con la virgola vuol dire sia l'uno che l'altro */
+header, main{
+  border-bottom: 2px solid #C87C01;
+}
+
+.container{
+  padding: 20px;
+}
+
+
+/* HEADER */
+
+header{
+  background-color: #EDEDED;
+  text-align: center;  
+}
+
+/* separando 2 selettori con lo spazio il secondo è contenuto nel primo quindi in questo caso img contenuto dentro header */
+header img{
+  width: 150px;
+}
+
+header h1{
+  padding: 20px;
+}
+
+/* MAIN */
+
+/* con due selettori collegati devo essere veri entambi 
+questo selettore vale per le section che sono anche .contente
+*/
+
+section.content h2{
+  color: #C87C01;
+  padding-bottom: 10px;
+}
+
+section.content h3{
+  font-style: italic;
+  padding-bottom: 10px;
+}
+
+section.content p{
+  padding-bottom: 10px;
+}
+
+/* FOOTER */
+footer{
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+}
+
